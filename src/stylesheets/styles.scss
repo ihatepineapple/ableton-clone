@@ -55,9 +55,9 @@ header {
 }
 
 section {
-    margin-left: 8.33333vw;
-    margin-right: 8.33333vw;
-    margin-bottom: 8.33333vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-bottom: 8vw;
 
     .hero-image {
         height: 100vh;
@@ -96,13 +96,18 @@ section {
 .collage-1 {
     display: flex;
     align-items: center;
-    .img1-1 {
     position: relative;
+    margin-bottom: 8vh,;
+    margin-top: 5vh;
 
+    .img1-1 {
         display: inline-block;
-        width: 41.66667vw;
-        height: 41.66667vw;
-        margin-left: 8.33333vw;
+        margin-left: 8vw;
+
+        width: 41vw;
+        height: 41vw;
+        vertical-align: middle;
+        position: relative;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 50% 50%;
@@ -111,12 +116,13 @@ section {
     }
 
     .img1-2 {
-    position: relative;
-
+        position: relative;
+        margin-left: 8vw;
         display: inline-block;
-        width: 33.33333vw;
+        width: 33vw;
         height: 25vw;
-        margin-left: 8.33333vw;
+        vertical-align: middle;
+        position: relative;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 50% 50%;
@@ -128,12 +134,12 @@ section {
 }
 .bg-lemon {
     background-color: #FBFFA7;
-    width: 58.33333vw;
-    height: 58.33333vw;
-    left: 41.66667vw;
+    width: 58vw;
+    height: 58vw;
+    left: 41vw;
     position: absolute;
     display: block;
-    top: 0;
+    top: 1;
     z-index: 0;
 
 

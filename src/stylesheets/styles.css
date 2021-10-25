@@ -1,0 +1,146 @@
+body {
+  background-color: pink;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  margin: 0;
+}
+
+header {
+  position: relative;
+  padding-top: 1.25rem;
+  background-color: white;
+}
+
+header .nav-bar .main-nav-logo {
+  display: inline-block;
+  width: 3.75em;
+  height: 1.75em;
+  position: relative;
+  margin-right: 2em;
+  margin-left: 1.25rem;
+}
+
+header .nav-bar .main-nav-menu {
+  display: inline-block;
+  font-size: 1.25rem;
+  vertical-align: middle;
+  margin-bottom: .9375rem;
+}
+
+header .nav-bar .menu-separator {
+  display: block;
+  height: 0;
+  border-top: 2px solid #eee;
+}
+
+header .menu-list {
+  padding: 17px 20px 15px;
+}
+
+header .menu-list a {
+  font-size: .875rem;
+  margin-right: 15px;
+  color: black;
+  text-decoration: none;
+}
+
+header .menu-list a:active {
+  color: #ff764d;
+}
+
+section {
+  margin-left: 8vw;
+  margin-right: 8vw;
+  margin-bottom: 8vw;
+}
+
+section .hero-image {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url(https://ableton-production.imgix.net/about/header.jpg?auto=format&dpr=3&fit=crop&fm=jpg&h=692&ixjsv=1.1.3&q=33&w=313);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section .ableton-logo {
+  width: 215px;
+  height: 52px;
+}
+
+section h2 {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 0.7em;
+  font-weight: 300;
+}
+
+section p {
+  font-weight: 100;
+  font-size: 1rem;
+  line-height: 1.5;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+}
+
+.collage-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-bottom: 8vh;
+  margin-top: 5vh;
+}
+
+.collage-1 .img1-1 {
+  display: inline-block;
+  margin-left: 8vw;
+  width: 41vw;
+  height: 41vw;
+  vertical-align: middle;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url(https://ableton-production.imgix.net/about/photo-1.jpg?dpr=3&fit=crop&h=353&ixjsv=1.1.3&q=33&w=353);
+  z-index: 1;
+}
+
+.collage-1 .img1-2 {
+  position: relative;
+  margin-left: 8vw;
+  display: inline-block;
+  width: 33vw;
+  height: 25vw;
+  vertical-align: middle;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url(https://ableton-production.imgix.net/about/photo-2.jpg?dpr=3&fit=crop&h=211&ixjsv=1.1.3&q=33&w=282);
+  z-index: 1;
+}
+
+.bg-lemon {
+  background-color: #FBFFA7;
+  width: 58vw;
+  height: 58vw;
+  left: 41vw;
+  position: absolute;
+  display: block;
+  top: 1;
+  z-index: 0;
+}
+/*# sourceMappingURL=styles.css.map */
